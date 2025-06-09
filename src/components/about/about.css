@@ -48,6 +48,10 @@
     align-items: center;
     transition: all 0.3s ease;
 }
+.about_skill:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
 .about_skill p{
     min-width: 150px;
     font-size: 24px;
@@ -60,5 +64,33 @@
     height: 8px;
     border-radius:50px ;
     background: linear-gradient(267deg , #ff0000 0.36%, #d000ff 102.06%);
-    
+}
+.about_achivments{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+.about_achivment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.about_achivment:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
+.about_achivment h1{
+    font-size: 60px;
+    font-weight: 700;
+    background: linear-gradient(267deg , #ff0000 0.36%, #d000ff 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about_achivment p{
+    font-size: 22px;
+    font-weight: 500;
 }
