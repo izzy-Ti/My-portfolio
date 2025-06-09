@@ -4,15 +4,15 @@ import logo from './../../assets/logo.png'
 function Nav(){
     return(
         <div className='navbar'>
-            <img src={logo} alt="" />
-            <ul>
+            <img src={logo} alt="Is logo" height="80"/>
+            <ul className='navbar_menu'>
                 <li>Home</li>
                 <li>About Me</li>
                 <li>Services</li>
-                <li>Coontact</li>
+                <li>Contact</li>
             </ul>
 
-            <div className="Nav_contact">Contact Me</div>
+            <div className="navbar_contact">Connect With Me</div>
         </div>
     );
 }

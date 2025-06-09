@@ -1,0 +1,64 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.about_title{
+    position: relative;
+}
+.about_title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.about_title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.about_section{
+    display: flex;
+    gap: 80px;
+}
+.about_right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.about_para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about_skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_skill{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.about_skill p{
+    min-width: 150px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.about_skill hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius:50px ;
+    background: linear-gradient(267deg , #ff0000 0.36%, #d000ff 102.06%);
+    
+}

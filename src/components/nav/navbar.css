@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    gap: 60px;
+    font-size: 20px;
+}
+.navbar_contact{
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg , #ff0000 0.36%, #d000ff 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+    transition:all 0.5s ease;
+}
+.navbar_contact:hover{
+    transform: scale(1.05);
+}
