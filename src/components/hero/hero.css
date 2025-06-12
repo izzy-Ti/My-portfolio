@@ -56,3 +56,36 @@
 .hero_resume:hover{
     border:2px solid #d000ff;
 }
+@media(max-width:768px){
+    .hero img{
+        margin-top: 90px;
+        width: 270px;
+        height: 270px;
+    }
+    .hero h1{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        width: 70%;
+        font-size: 50px;
+    }
+    .hero p{
+        width: 60%;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    .hero_action{
+        gap: 16px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+    }
+    .hero_connect{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+    .hero_resume{
+        padding: 20px 30px;
+        border-radius: 40px;
+    }
+}

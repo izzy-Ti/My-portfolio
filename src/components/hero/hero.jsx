@@ -6,7 +6,7 @@ function Hero(){
     return(
         <div className='hero' id='home'>
             <img className='profile_img' src={profile} alt="My profile" height='300' />
-            <h1><span>I'm Israel Ashenafi </span>,Full-stack web developer</h1>
+            <h1><span>I'm Israel Ashenafi</span>,full stack developer</h1>
             <p>I'm a full-stack developer who loves building clean, efficient, and user-friendly web applications—from front-end design to back-end logic.</p>
 
             <div className="hero_action">
