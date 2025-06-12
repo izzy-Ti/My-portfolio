@@ -6,10 +6,10 @@ import profile from '../../assets/profile.jpg'
 
 function About(){
     return(
-        <div className='about'>
+        <div className='about' id='about'>
             <div className="about_title">
                 <h1>About me</h1>
-                <img src={segment} alt="" height="60"/>
+                <img src={segment} alt="" height="110"/>
             </div>
             <div className="about_section">
                 <div className="about_left">

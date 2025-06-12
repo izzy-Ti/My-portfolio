@@ -12,6 +12,7 @@
     font-style: normal;
     gap: 60px;
     font-size: 20px;
+    cursor: pointer;
 }
 .navbar_contact{
     padding: 20px 40px;
@@ -23,4 +24,14 @@
 }
 .navbar_contact:hover{
     transform: scale(1.05);
+}
+.navbar_menu li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.anchor_link{
+    text-decoration: none;
+    color: white;
 }

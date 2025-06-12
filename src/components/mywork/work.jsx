@@ -5,10 +5,10 @@ import segment from './../../assets/segment.png'
 
 function Work(){
     return(
-        <div className='work'>
+        <div className='work' id='work'>
             <div className="work_title">
                 <h1>My latest work</h1>
-                <img src={segment} alt="" height="80" />
+                <img src={segment} alt="" height="120" />
             </div>
             <div className="work_items">
                 <div className="work_elements">

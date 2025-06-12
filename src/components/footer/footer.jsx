@@ -23,7 +23,7 @@ function Footer(){
             <hr />	
             <div className="footer_bottom">
                 <div className="footer_bottom_left">
-                    <p>&copy 2025 Israel Ashenafi, All rights</p>
+                    <p>&copy; 2025 Israel Ashenafi, All rights</p>
                 </div>
                 <div className="footer_bottom_right">
                     <p>Privacy policy</p>
