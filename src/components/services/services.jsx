@@ -38,7 +38,37 @@ function Services(){
                         <p>Read more</p>
                         <i class="fa-solid fa-arrow-right"></i>
                     </div>
-            </div>
+                </div>
+                <div className="services_container">
+                    <h3>01</h3>
+                    <h2>Front-end Design</h2>
+                    <p>Front-end development focuses on building the visual 
+                        and interactive parts of a website or app that users see and....</p>
+                    <div className="service_readmore">
+                        <p>Read more</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div className="services_container">
+                    <h3>02</h3>
+                    <h2>Back-end Dev</h2>
+                    <p>Back-end development deals with the server side of a website or app. It handles databases,
+                         server logic, and APIs to ensure everything works behind ...</p>
+                    <div className="service_readmore">
+                        <p>Read more</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div className="services_container">
+                    <h3>03</h3>
+                    <h2>Web Maintenance</h2>
+                    <p>Web maintenance involves regularly updating and managing a website to ensure it runs 
+                        smoothly, stays secure, and remains up to date. Tasks include....</p>
+                    <div className="service_readmore">
+                        <p>Read more</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
             </div>
 
         </div>

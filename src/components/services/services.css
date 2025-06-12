@@ -1,24 +1,22 @@
 .services{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 80px;
+    height: 100vh;
+    gap: 20px;
     margin: 80px 170px;
 }
 .service_format{
-    display: flex;
-    text-wrap: wrap;
-    justify-content: center;
-    gap: 80px;
-    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
 }
 .services_title{
     position: relative;
 }
 .services_title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 800;
     font-family: sans-serif;
 }
@@ -33,17 +31,16 @@
     border-radius: 10px;
     padding: 50px 50px;
     transition: all 0.5s ease;
+    max-width: 300px;
 }
 .services_container:hover{
     background: linear-gradient(267deg , #ff00009c 0.36%, #d000ffac 102.06%);
     border: 2px solid #d000ff;
-    transform: scale(1.15);
+    transform: scale(1.1);
 }
-.services_container{
-    max-width: 300px;
-}
+
 .services_container *{
-    margin: 10px 10px;
+    margin: 5px 5px;
     font-size: 1.5rem;
 }
 .services_container h3{

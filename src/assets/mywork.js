@@ -37,4 +37,4 @@ const Proj = [
         p_img: proj_6
     }
 ]
-export default proj
+export default Proj
