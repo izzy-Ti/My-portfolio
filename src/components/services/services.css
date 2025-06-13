@@ -66,40 +66,60 @@
     gap: 20px;
     align-items: center;
     margin-top: 20px;
+    cursor: pointer;
 }
 @media(max-width:768px){
     .services{
         align-items: start;
         gap: 70px;
-        margin: 20px 70px;
+        margin: 20px 20px;
     }
     .services_title h1{
         padding: 0;
-        font-size: 50px;
+        font-size: 40px;
     }
     .services_title img{
-        width: 280px;
-        height: 80px;
+        width: 250px;
+        height: 60px;
         right: -5px;
     }
     .service_format{
+        display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
-        padding: 0px;
-        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0px 0px;
+    }
+    .service_format h3{
+        font-size: 18px;
+        margin: 0px;
     }
     .service_format h2{
-        font-size: 28px;
+        font-size: 18px;
+        margin: 0px;
+
     }
     .service_format p{
         font-size: 13px;
         font-weight: 50;
         line-height: 12px;
-        max-width: 250px;
+        max-width: 120px;
+        max-height: 120px;
+        margin: 0px;
+
     }
     .service_readmore i{
         width: 20px;
+        margin-top: 0px;
     }
     .services_container{
+        align-items: center;
+        justify-content: center;
+        max-width: 120px;
+        max-height: 100px;
+        padding-right:15px;
+        padding-left:15px;
+        padding-bottom: 85px;
+        padding-top: 5px;
+        margin: 15px 15px;
     }
 }

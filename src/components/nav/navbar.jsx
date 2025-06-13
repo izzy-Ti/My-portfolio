@@ -19,14 +19,18 @@ function Nav(){
     return(
         <div className='navbar'>
             <img src={logo} alt="Is logo" height="80"/>
-            <img src={menu_open} alt="" height="50" className='nav_mob_open' onClick={openMenu}/>
+            <div  className='nav_mob_open' onClick={openMenu}>
+                <i class="fa-solid fa-bars"/>
+            </div>
             <ul ref={menuRef} className='navbar_menu'>
-                <img src={menu_close} alt="" className="nav_mob_close" height="50" onClick={closeMenu}/>
-                <li><AnchorLink className="anchor_link" offset={50} href = "#home"><p onClick={() => {setmenu("home")}}>Home</p></AnchorLink>{menu === "home"? <img src={underline} height="9"/>:<></>}</li>
-                <li><AnchorLink className="anchor_link" offset={50} href = "#about"><p onClick={() => {setmenu("about")}}>About Me</p></AnchorLink>{menu === "about"? <img src={underline} height="9"/>:<></>}</li>
-                <li><AnchorLink className="anchor_link" offset={50} href = "#service"><p onClick={() => {setmenu("service")}}>Services</p></AnchorLink>{menu === "service"? <img src={underline} height="9"/>:<></>}</li>
-                <li><AnchorLink className="anchor_link" offset={50} href = "#work"><p onClick={() => {setmenu("work")}}>Protfolio</p></AnchorLink>{menu === "work"? <img src={underline} height="9"/>:<></>}</li>
-                <li><AnchorLink className="anchor_link" offset={50} href = "#contact"><p onClick={() => {setmenu("contact")}}>Contact</p></AnchorLink>{menu === "contact"? <img src={underline} height="9"/>:<></>}</li>
+                <div className="nav_mob_close" onClick={closeMenu}>
+                    <i class="fa-solid fa-x"></i>
+                </div>
+                <li><AnchorLink className="anchor_link" offset={50} href = "#home"><p onClick={() => {setmenu("home")}}>Home</p></AnchorLink>{menu === "home"? <img className='nav_under' src={underline} height="9"/>:<></>}</li>
+                <li><AnchorLink className="anchor_link" offset={50} href = "#about"><p onClick={() => {setmenu("about")}}>About Me</p></AnchorLink>{menu === "about"? <img className='nav_under' src={underline} height="9"/>:<></>}</li>
+                <li><AnchorLink className="anchor_link" offset={50} href = "#service"><p onClick={() => {setmenu("service")}}>Services</p></AnchorLink>{menu === "service"? <img className='nav_under' src={underline} height="9"/>:<></>}</li>
+                <li><AnchorLink className="anchor_link" offset={50} href = "#work"><p onClick={() => {setmenu("work")}}>Protfolio</p></AnchorLink>{menu === "work"? <img className='nav_under' src={underline} height="9"/>:<></>}</li>
+                <li><AnchorLink className="anchor_link" offset={50} href = "#contact"><p onClick={() => {setmenu("contact")}}>Contact</p></AnchorLink>{menu === "contact"? <img className='nav_under' src={underline} height="9"/>:<></>}</li>
             </ul>
 
             <div className="navbar_contact"><AnchorLink className="anchor_link" offset={50} href = "#contact">Connect With Me</AnchorLink></div>

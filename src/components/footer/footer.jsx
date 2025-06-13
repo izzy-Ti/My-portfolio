@@ -3,6 +3,22 @@ import './footer.css'
 import logo from './../../assets/logo.png'
 
 function Footer(){
+    const git = 'https://github.com/izzy-Ti'
+    const github = () => {
+        window.open(git, '_blank');
+    };
+    const Linkedin = 'https://www.linkedin.com/in/israel-ashenafi-685720361/'
+    const Linked = () => {
+        window.open(Linkedin, '_blank');
+    };
+    const telegramLink = 'https://t.me/afro978'
+    const telegram = () =>{
+        window.open(telegramLink, '_blank')
+    }
+    const instaLink = 'https://www.instagram.com/izzruuu/'
+    const instagram = () =>{
+        window.open(instaLink, '_blank')
+    }
     return(
         <div className='footer'>
             <div className="footer_top">
@@ -13,11 +29,7 @@ function Footer(){
                     </p>
                 </div>
                 <div className="footer_top_right">
-                    <div className="footer_email">
-                        <i class="fa-solid fa-user"></i>
-                        <input type="email" placeholder='Enter your email' />
-                    </div>
-                    <div className="footer_subscribe">Subscribe</div>
+                    <div className="footer_subscribe" onClick={instagram}>Follow me</div>
                 </div>
             </div>
             <hr />	
@@ -25,10 +37,16 @@ function Footer(){
                 <div className="footer_bottom_left">
                     <p>&copy; 2025 Israel Ashenafi, All rights</p>
                 </div>
-                <div className="footer_bottom_right">
-                    <p>Privacy policy</p>
-                    <p>Term of service</p>
-                    <p>Contact Me</p>
+                <div className='footer_bottom_right'>
+                    <div onClick={github}>
+                    <p><i class="fa-brands fa-github"></i></p>
+                    </div>
+                    <div onClick={Linked}>
+                    <p><i class="fa-brands fa-linkedin"></i></p>
+                    </div>
+                    <div onClick={telegram}>
+                    <p><i class="fa-brands fa-telegram"></i></p>
+                    </div>
                 </div>
             </div>
         </div>

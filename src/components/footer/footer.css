@@ -61,16 +61,32 @@
     margin-bottom: 50px;
 
 }
+.footer_bottom_right{
+    display: flex;
+    font-size: 54px;
+    gap: 30px;
+}
 @media(max-width:768px){
     .footer{
-        margin: 50px 70px;
+        margin: 20px 30px;
     }
     .footer_top{
         flex-direction: column;
         gap: 50px;
     }
+    .footer_top_left p{
+        font-size: 18px;
+        font-weight: 100;
+    }
     .footer_bottom{
         display: flex;
+    }
+    .footer_top_right{
+        display: flex;
         flex-direction: column;
+    }
+    .footer_bottom_right{
+        font-size: 28px;
+        gap: 15px;
     }
 }

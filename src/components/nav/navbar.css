@@ -38,13 +38,23 @@
 
 .nav_mob_close{
     display: none;
+    font-size: 30px;
+    background: linear-gradient(267deg , #ff0000 0.36%, #d000ff 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .nav_mob_open{
     display: none;
+    font-size: 30px;
+    background: linear-gradient(267deg , #ff0000 0.36%, #d000ff 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 @media(max-width:768px){
     .navbar{
-        margin: 20px 50px;
+        margin: 20px 20px;
         justify-content: space-between;
 
     }
@@ -56,11 +66,14 @@
         position: fixed;
         right: 30px;
     }
+    .nav_under{
+        display: none;
+    }
     .nav_mob_close{
         display: block;
         position: relative;
         top: 30px;
-        left: 290px;
+        left: 29px;
         width: 30px;
     }
     .navbar_menu{
@@ -70,14 +83,14 @@
         top: 0;
         gap: 30px;
         background-color: #1f0016;
-        width: 350px;
+        width: 250px;
         height: 100%;
         z-index: 2;
         transition: right 0.5s;
         right: -350px;
     }
     .navbar_menu li{
-        font-size: 30px;
+        font-size: 20px;
         padding-left: 100px;
         flex-direction: row;
         gap: 20px;

@@ -101,20 +101,25 @@
 @media(max-width:768px){
     .contact{
         align-items: start;
-        gap: 70px;
-        margin: 20px 70px;
+        gap: 30px;
+        margin: 20px 30px;
     }
     .contact_title h1{
         padding: 0;
-        font-size: 50px;
+        font-size: 40px;
     }
     .contact_title img{
-        width: 280px;
-        height: 80px;
+        width: 250px;
+        height: 60px;
         right: -5px;
     }
     .contact_section{
         flex-direction: column;
+        gap: 50px;
+    }
+    .contact_left{
+        margin: 0;
+        width: 100%;
     }
     .contact_left h1{
         font-size: 54px;
@@ -130,14 +135,16 @@
     }
     .contatc_right lable{
         font-size: 20px;
+        gap: 5px;
     }
     .contatc_right input{
         width: 100%;
         font-size: 20px;
     }
     .contatc_right textarea{
-        width: 95%;
+        width: 90%;
         font-size: 20px;
+        resize: none;
     }
     .contatc_right button{
         font-size: 20px;
