@@ -58,9 +58,10 @@
     border:2px solid #d000ff;
 }
 @media(max-width:768px){
-    .hero {     
+    .hero {    
+        margin-top: 150px; 
         gap: 35px;
-        min-height: 100vh;           
+        height: 90vh;           
     }
     .hero img{
         margin: 20px;
