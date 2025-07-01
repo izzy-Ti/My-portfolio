@@ -59,7 +59,7 @@
 }
 @media(max-width:768px){
     .hero {    
-        margin-top: 150px; 
+        margin-top: 70px; 
         gap: 35px;
         height: 90vh;           
     }

@@ -33,14 +33,14 @@
 .about_para{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     font-size: 24px;
     font-weight: 500;
 }
 .about_skills{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 .about_skill{
     display: flex;

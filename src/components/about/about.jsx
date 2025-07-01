@@ -17,14 +17,16 @@ function About(){
                 </div>
                 <div className="about_right">
                     <div className="about_para">
-                        <p>I'm skilled in HTML, CSS, and JavaScript, which I use to build clean, responsive, and interactive front-end interfaces. I focus on writing semantic HTML, styling with modern CSS techniques, and adding dynamic behavior through JavaScript for smooth user experiences.</p>
-                        <p>On the back end, I work with Django to build secure and scalable web applications. I often pair it with React on the front end to create fast, modular UIs. This full-stack approach allows me to deliver complete, efficient web solutions from front to back.</p>
+                        <p>I'm a full-stack web developer with a strong focus on the MERN stack (MongoDB, Express, React, Node.js). I build fast, responsive, and scalable web applications from dynamic React frontends to secure backend APIs with Node and MongoDB. I enjoy turning ideas into real-world solutions that work seamlessly across devices.</p>
+                        <p>I've built admin panels, dashboards, and custom tools with features like authentication, CRUD operations, and responsive design. I care about clean code, clear communication, and delivering exactly what the client needs, on time.</p>
                     </div>
                     <div className="about_skills">
-                        <div className="about_skill"><p>HTML & CSS</p><hr style={{width : "70%"}}/></div>
-                        <div className="about_skill"><p>JavaScript</p><hr style={{width : "50%"}}/></div>
-                        <div className="about_skill"><p>React Js</p><hr style={{width : "50%"}}/></div>
-                        <div className="about_skill"><p>Django</p><hr style={{width : "60%"}}/></div>
+                        <div className="about_skill"><p>JavaScript</p><hr style={{width : "80%"}}/></div>
+                        <div className="about_skill"><p>React Js</p><hr style={{width : "65%"}}/></div>
+                        <div className="about_skill"><p>Express Js</p><hr style={{width : "70%"}}/></div>
+                        <div className="about_skill"><p>Mongo DB</p><hr style={{width : "67%"}}/></div>
+                        <div className="about_skill"><p>Node Js</p><hr style={{width : "60%"}}/></div>
+                        <div className="about_skill"><p>Django</p><hr style={{width : "40%"}}/></div>
                     </div>
                 </div>
             </div>
@@ -40,7 +42,7 @@ function About(){
                 </div>
                 <hr />
                 <div className="about_achivment">
-                    <h1>10+</h1>
+                    <h1>4+</h1>
                     <p>HAPPY CLIENTS</p>
                 </div>
                 <hr />
